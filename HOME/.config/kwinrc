@@ -9,6 +9,7 @@ Number=1
 InitialZoom=1
 
 [Plugins]
+kwin4_effect_dialogparentEnabled=false
 kwin4_effect_fadeEnabled=false
 kwin4_effect_loginEnabled=false
 kwin4_effect_maximizeEnabled=false
