@@ -6,6 +6,8 @@ set -x # echo on
 
 kwriteconfig --file ~/.config/plasmarc --group PlasmaToolTips --key Delay -- 0.69999999999999996
 
+kwriteconfig --file ~/.config/kwinrc --group Plugins --key zoomEnabled --type bool -- true
+
 kwriteconfig --file ~/.config/akonadi/akonadiserverrc --group QMYSQL --key StartServer -- true
 
 sudo sed -i 's/APT::Periodic::Update-Package-Lists "0";/APT::Periodic::Update-Package-Lists "1";/g' "/etc/apt/apt.conf.d/20auto-upgrades"
