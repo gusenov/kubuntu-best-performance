@@ -18,5 +18,6 @@ kwin4_effect_windowapertureEnabled=false
 logoutEnabled=false
 minimizeanimationEnabled=false
 screenedgeEnabled=false
+slideEnabled=false
 slidingpopupsEnabled=false
 zoomEnabled=false
