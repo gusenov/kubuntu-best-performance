@@ -7,6 +7,8 @@ set -x # echo on
 # http://shitohichiumaya.blogspot.com/2017/01/how-to-workaround-frequently-crash.html
 kwriteconfig --file ~/.config/plasmarc --group PlasmaToolTips --key Delay -- -1
 
+kwriteconfig --file ~/.config/kwinrc --group Plugins --key zoomEnabled --type bool -- false
+
 # https://ubuntuforums.org/showthread.php?t=1764048&s=b7420bf8119f62ca810b3a658cccc284&p=10881947#post10881947
 # https://askubuntu.com/questions/453422/removing-nepomuk-and-akonadi
 kwriteconfig --file ~/.config/akonadi/akonadiserverrc --group QMYSQL --key StartServer -- false

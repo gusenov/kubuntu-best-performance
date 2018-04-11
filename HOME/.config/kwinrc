@@ -7,3 +7,6 @@ Number=1
 
 [Effect-Zoom]
 InitialZoom=1
+
+[Plugins]
+zoomEnabled=false
