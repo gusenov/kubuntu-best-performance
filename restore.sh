@@ -19,6 +19,8 @@ kwriteconfig --file ~/.config/kwinrc --group Plugins --key kwin4_effect_transluc
 kwriteconfig --file ~/.config/kwinrc --group Plugins --key kwin4_effect_windowapertureEnabled --type bool -- true
 kwriteconfig --file ~/.config/kwinrc --group Plugins --key minimizeanimationEnabled --type bool -- true
 
+kwriteconfig --file ~/.config/kwinrc --group Plugins --key kwin4_effect_dialogparentEnabled --type bool -- true
+
 kwriteconfig --file ~/.config/akonadi/akonadiserverrc --group QMYSQL --key StartServer -- true
 
 sudo sed -i 's/APT::Periodic::Update-Package-Lists "0";/APT::Periodic::Update-Package-Lists "1";/g' "/etc/apt/apt.conf.d/20auto-upgrades"
