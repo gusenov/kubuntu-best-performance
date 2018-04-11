@@ -23,6 +23,10 @@ kwriteconfig --file ~/.config/kwinrc --group Plugins --key kwin4_effect_dialogpa
 
 kwriteconfig --file ~/.config/kwinrc --group Plugins --key slideEnabled --type bool -- true
 
+# System Settings ⇒ Desktop Effects ⇒ Window Management
+kwriteconfig --file ~/.config/kwinrc --group Plugins --key desktopgridEnabled --type bool -- true
+kwriteconfig --file ~/.config/kwinrc --group Plugins --key presentwindowsEnabled --type bool -- true
+
 kwriteconfig --file ~/.config/akonadi/akonadiserverrc --group QMYSQL --key StartServer -- true
 
 sudo sed -i 's/APT::Periodic::Update-Package-Lists "0";/APT::Periodic::Update-Package-Lists "1";/g' "/etc/apt/apt.conf.d/20auto-upgrades"
